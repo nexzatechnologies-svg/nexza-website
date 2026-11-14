@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Nexza Technologies | IT Support &amp; Solutions</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Nexza Technologies provides professional IT support, CCTV solutions, networking, access control, computer programming, IT consultancy and managed IT services across Kerala, Karnataka &amp; Bahrain."
+    />
+    <meta
+      name="keywords"
+      content="Nexza Technologies, IT support, IT solutions, networking, CCTV solutions, access control, computer programming, IT consultancy, managed IT services, Kerala, Karnataka, Bahrain"
+    />
+    <meta property="og:title" content="Nexza Technologies | IT Support &amp; Solutions" />
+    <meta
+      property="og:description"
+      content="Nexza Technologies provides professional IT support, CCTV solutions, networking, access control, computer programming, IT consultancy and managed IT services across Kerala, Karnataka &amp; Bahrain."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.nexza.co.in" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="gradient"></div>
+    <div id="webgl"><canvas id="scene"></canvas></div>
+    <div id="loader">
+      <div class="loader-content">
+        <div class="loader-status loader-item" id="loader-status">
+          Calibrating systems
+        </div>
+        <div class="progress-track loader-item">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="loader-count loader-item" id="loader-count">000%</div>
+      </div>
+    </div>
+    <header id="header">
+      <a class="wordmark" href="#home"
+        ><span class="brand-main">NE<span class="brand-x">X</span>ZA</span>
+        <span class="brand-sub">Technologies</span></a
+      >
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="actions">
+        <button
+          class="glass-btn"
+          id="open-drawer"
+          aria-label="Open theme controls"
+        >
+          <svg
+            width="17"
+            height="17"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+            stroke-linecap="round"
+          >
+            <line x1="4" y1="21" x2="4" y2="14" />
+            <line x1="4" y1="10" x2="4" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="12" />
+            <line x1="12" y1="8" x2="12" y2="3" />
+            <line x1="20" y1="21" x2="20" y2="16" />
+            <line x1="20" y1="12" x2="20" y2="3" />
+            <line x1="2" y1="14" x2="6" y2="14" />
+            <line x1="10" y1="8" x2="14" y2="8" />
+            <line x1="18" y1="16" x2="22" y2="16" />
+          </svg>
+        </button>
+        <a class="contact-pill" href="#contact"
+          ><span>Contact us</span
+          ><span class="orb"
+            ><svg
+              width="15"
+              height="15"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7" /></svg></span
+        ></a>
+      </div>
+    </header>
+    <main>
+      <!-- SECTION 01 – HERO -->
+      <section class="hero" id="home">
+        <div class="hero-row interactive">
+          <div class="hero-left">
+            <div class="eyebrow">IT SUPPORT &amp; SOLUTIONS</div>
+            <h1>EMPOWERING BUSINESSES<br />THROUGH <span class="blue-accent">TECHNOLOGY.</span></h1>
+          </div>
+          <div class="hero-right">
+            <p>
+              Nexza Technologies delivers reliable IT support and smart
+              technology solutions to help your business run smoother, safer and
+              stronger.
+            </p>
+            <div class="credit">© 2026 — IT Support &amp; Technology Solutions</div>
+            <div class="scrollcue">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              >
+                <path d="M12 5v14m-7-7 7 7 7-7" /></svg
+              >Scroll
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 02 – OUR EXPERTISE / SOLUTIONS -->
+      <section class="section-two" id="solutions">
+        <div class="two-grid interactive">
+          <div>
+            <div class="mono-label reveal">Our Expertise</div>
+            <h2 class="section-heading reveal" style="transition-delay: 0.1s">
+              Technology that keeps<br />your business moving.
+            </h2>
+            <p class="body-copy reveal" style="transition-delay: 0.2s">
+              From everyday IT troubleshooting to complete network
+              infrastructure, Nexza Technologies provides dependable technology
+              solutions that help businesses stay connected, productive and
+              secure.
+            </p>
+          </div>
+          <div class="stats reveal" style="transition-delay: 0.25s">
+            <div class="stat-card">
+              <div class="stat-inner">
+                <div class="stat-meta">
+                  <span class="index">01</span><span>Technical Assistance</span
+                  ><i class="dot"></i>
+                </div>
+                <div class="stat-value">IT SUPPORT</div>
+                <div class="stat-desc">
+                  Reliable technical assistance for computers, software,
+                  Microsoft 365 and business IT infrastructure.
+                </div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-inner">
+                <div class="stat-meta">
+                  <span class="index">02</span><span>Infrastructure &amp; Security</span
+                  ><i class="dot"></i>
+                </div>
+                <div class="stat-value">NETWORKING &amp; SECURITY</div>
+                <div class="stat-desc">
+                  Secure network infrastructure, Wi-Fi, firewall configuration
+                  and CCTV surveillance solutions.
+                </div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-inner">
+                <div class="stat-meta">
+                  <span class="index">03</span><span>Proactive Management</span
+                  ><i class="dot"></i>
+                </div>
+                <div class="stat-value">MANAGED SERVICES</div>
+                <div class="stat-desc">
+                  Proactive IT management, maintenance, monitoring and technology
+                  consultancy.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 03 – OUR SERVICES -->
+      <section class="section-three" id="services">
+        <div class="three-grid">
+          <div class="three-left interactive">
+            <div class="mono-label reveal">Our Services</div>
+            <h2 class="section-heading reveal" style="transition-delay: 0.1s">
+              Smart solutions.<br />Stronger businesses.
+            </h2>
+            <p
+              class="body-copy reveal"
+              style="transition-delay: 0.15s; max-width: 520px; margin-top: 18px"
+            >
+              We deliver complete IT support and technology solutions designed
+              around your business requirements.
+            </p>
+            <div class="service-highlights reveal" style="transition-delay: 0.2s">
+              <div class="highlight-item">
+                <span class="highlight-dot"></span>
+                <div>
+                  <strong>Enterprise &amp; SME Support</strong>
+                  <p>Customized IT solutions scalable to any business volume.</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-dot"></span>
+                <div>
+                  <strong>Rapid Response &amp; SLAs</strong>
+                  <p>Reliable on-site and remote troubleshooting whenever you need.</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-dot"></span>
+                <div>
+                  <strong>Regional Coverage</strong>
+                  <p>Serving businesses across Kerala, Karnataka &amp; Bahrain.</p>
+                </div>
+              </div>
+            </div>
+            <a
+              class="contact-pill reveal"
+              href="#contact"
+              style="margin-top: 24px; display: inline-flex; transition-delay: 0.24s"
+            >
+              <span>Get in touch with us</span>
+              <span class="orb">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </span>
+            </a>
+          </div>
+          <div class="shape-bottom interactive">
+          <div class="stats reveal" style="transition-delay: 0.2s">
+            <div class="stat-card">
+              <div class="stat-inner">
+                <div class="stat-meta">
+                  <span class="index">01</span><span>Everyday IT Support</span
+                  ><i class="dot"></i>
+                </div>
+                <div class="stat-value">IT SUPPORT</div>
+                <div class="stat-desc">
+                  Fast and reliable support for your everyday IT challenges.
+                </div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-inner">
+                <div class="stat-meta">
+                  <span class="index">02</span><span>Surveillance Systems</span
+                  ><i class="dot"></i>
+                </div>
+                <div class="stat-value">CCTV SOLUTIONS</div>
+                <div class="stat-desc">
+                  Advanced surveillance systems for total protection.
+                </div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-inner">
+                <div class="stat-meta">
+                  <span class="index">03</span><span>Network Infrastructure</span
+                  ><i class="dot"></i>
+                </div>
+                <div class="stat-value">NETWORKING</div>
+                <div class="stat-desc">
+                  Secure and efficient network design and management.
+                </div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-inner">
+                <div class="stat-meta">
+                  <span class="index">04</span><span>Physical Security</span
+                  ><i class="dot"></i>
+                </div>
+                <div class="stat-value">ACCESS CONTROL</div>
+                <div class="stat-desc">
+                  Smart access control solutions for modern workplaces.
+                </div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-inner">
+                <div class="stat-meta">
+                  <span class="index">05</span><span>End-to-End Care</span
+                  ><i class="dot"></i>
+                </div>
+                <div class="stat-value">MANAGED SERVICES</div>
+                <div class="stat-desc">
+                  End-to-end IT management so you can focus on your business.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hint-pill reveal" style="transition-delay: 0.28s; margin-top: 24px;">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M12 2v6m0 0a3 3 0 1 0-3-3m3 3a3 3 0 1 1 3-3" /></svg
+            ><span>Computer Programming &amp; IT Consultancy · Swipe to interact</span>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- SECTION 04 – ABOUT NEXZA -->
+      <section class="section-four" id="about">
+        <div class="release-inner interactive">
+          <div class="mono-label reveal">About Nexza</div>
+          <h2 class="section-heading reveal" style="transition-delay: 0.12s">
+            Your technology.<br />Our commitment.
+          </h2>
+          <p class="body-copy reveal" style="transition-delay: 0.2s">
+            Nexza Technologies is an IT support and solutions provider dedicated
+            to helping businesses build reliable, secure and efficient technology
+            infrastructure.
+          </p>
+          <p class="body-copy reveal" style="transition-delay: 0.25s; margin-top: 18px;">
+            We serve businesses across Kerala, Karnataka &amp; Bahrain, providing professional
+            IT support, networking, surveillance, access control and managed IT
+            services.
+          </p>
+
+          <!-- Small Information Area -->
+          <div class="about-info-grid reveal" style="transition-delay: 0.3s">
+            <div class="about-info-item">
+              <span class="about-info-label">Business</span>
+              <span class="about-info-val">Nexza Technologies</span>
+            </div>
+            <div class="about-info-item">
+              <span class="about-info-label">Industry</span>
+              <span class="about-info-val">IT Support &amp; Solutions</span>
+            </div>
+            <div class="about-info-item">
+              <span class="about-info-label">Registration</span>
+              <span class="about-info-val">UDYAM Registered Enterprise</span>
+            </div>
+            <div class="about-info-item">
+              <span class="about-info-label">UDYAM Number</span>
+              <span class="about-info-val mono">UDYAM-KL-12-0148224</span>
+            </div>
+            <div class="about-info-item">
+              <span class="about-info-label">Service Regions</span>
+              <span class="about-info-val">Kerala, Karnataka &amp; Bahrain</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- SECTION 05 / FOOTER – NEXZA TECHNOLOGIES -->
+    <footer id="contact">
+      <div class="glow one"></div>
+      <div class="glow two"></div>
+      <div class="marquee">
+        <div class="marquee-track">
+          <div class="marquee-set">
+            <span class="marquee-word">Nexza Technologies</span
+            ><i class="marquee-dot"></i
+            ><span class="marquee-word">IT Support</span
+            ><i class="marquee-dot"></i
+            ><span class="marquee-word">Smart Solutions</span
+            ><i class="marquee-dot"></i
+            ><span class="marquee-word">Secure Infrastructure</span
+            ><i class="marquee-dot"></i
+            ><span class="marquee-word">Business Technology</span
+            ><i class="marquee-dot"></i>
+          </div>
+          <div class="marquee-set" aria-hidden="true">
+            <span class="marquee-word">Nexza Technologies</span
+            ><i class="marquee-dot"></i
+            ><span class="marquee-word">IT Support</span
+            ><i class="marquee-dot"></i
+            ><span class="marquee-word">Smart Solutions</span
+            ><i class="marquee-dot"></i
+            ><span class="marquee-word">Secure Infrastructure</span
+            ><i class="marquee-dot"></i
+            ><span class="marquee-word">Business Technology</span
+            ><i class="marquee-dot"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer-body">
+        <div class="footer-grid">
+          <div class="footer-cta reveal">
+            <div class="footer-kicker">Contact Nexza</div>
+            <h2>Let's strengthen your<br />IT infrastructure.</h2>
+            <p class="footer-desc">
+              Looking for reliable IT support, networking, CCTV or managed IT
+              services? Let's discuss your business requirements.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 14px; align-items: center;">
+              <a class="email-pill" href="mailto:info@nexza.co.in"
+                ><span>info@nexza.co.in</span
+                ><span class="orb"
+                  ><svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="white"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M7 17 17 7M7 7h10v10" /></svg></span
+              ></a>
+              <a class="contact-pill" href="tel:+919946054829"
+                ><span>+91 9946054829</span
+                ><span class="orb"
+                  ><svg
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" /></svg></span
+              ></a>
+            </div>
+          </div>
+          <div class="link-columns">
+            <div class="link-col reveal">
+              <h3>Company</h3>
+              <a href="#home"
+                >Home
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+              <a href="#about"
+                >About Us
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+              <a href="#services"
+                >Our Services
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+              <a href="#contact"
+                >Contact
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+            </div>
+            <div class="link-col reveal" style="transition-delay: 0.08s">
+              <h3>Our Services</h3>
+              <a href="#services"
+                >IT Support
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+              <a href="#services"
+                >CCTV Solutions
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+              <a href="#services"
+                >Networking
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+              <a href="#services"
+                >Access Control
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+              <a href="#services"
+                >Managed IT Services
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+              <a href="#services"
+                >Computer Programming &amp; Consultancy
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+            </div>
+            <div class="link-col reveal" style="transition-delay: 0.16s">
+              <h3>Contact</h3>
+              <a href="mailto:info@nexza.co.in"
+                >info@nexza.co.in
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+              <a href="tel:+919946054829"
+                >+91 9946054829
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+              <a
+                href="https://wa.me/919946054829?text=Hello%20Nexza%20Technologies%2C%20I%20am%20interested%20in%20your%20IT%20support%20and%20solutions.%20Please%20contact%20me."
+                target="_blank"
+                rel="noopener"
+                >WhatsApp Chat
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+              <a href="http://www.nexza.co.in" target="_blank" rel="noopener"
+                >www.nexza.co.in
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path d="M7 17 17 7M7 7h10v10" /></svg
+              ></a>
+              <span class="footer-meta-item">Kerala, Karnataka &amp; Bahrain</span>
+              <span class="footer-meta-item" style="font-family: var(--mono); font-size: 12px;"
+                >UDYAM-KL-12-0148224</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bottom-bar">
+          <div class="bottom-brand">
+            <strong
+              >NE<span class="brand-x">X</span>ZA
+              <span class="brand-sub" style="color: rgba(255, 255, 255, 0.75)"
+                >Technologies</span
+              ></strong
+            ><i class="blue-dot"></i
+            ><small>© 2026 — All Rights Reserved.</small>
+          </div>
+          <div class="socials">
+            <a
+              href="https://wa.me/919946054829?text=Hello%20Nexza%20Technologies%2C%20I%20am%20interested%20in%20your%20IT%20support%20and%20solutions.%20Please%20contact%20me."
+              target="_blank"
+              rel="noopener"
+              aria-label="WhatsApp"
+            >
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
+                />
+              </svg>
+            </a>
+            <a href="tel:+919946054829" aria-label="Phone">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+            </a>
+            <a href="mailto:info@nexza.co.in" aria-label="Email">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Subtle Floating WhatsApp Button -->
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/919946054829?text=Hello%20Nexza%20Technologies%2C%20I%20am%20interested%20in%20your%20IT%20support%20and%20solutions.%20Please%20contact%20me."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat with Nexza Technologies on WhatsApp"
+    >
+      <span class="whatsapp-text">Chat with us</span>
+      <span class="whatsapp-orb">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
+          />
+        </svg>
+      </span>
+    </a>
+
+    <div id="scrim"></div>
+    <aside id="drawer" aria-hidden="true">
+      <div class="drawer-head">
+        <div class="drawer-title">
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+            stroke-linecap="round"
+          >
+            <path
+              d="M4 21v-7m0-4V3m8 18v-9m0-4V3m8 18v-5m0-4V3M2 14h4m4-6h4m4 8h4"
+            /></svg
+          >Theme Controls
+        </div>
+        <button class="close-btn" id="close-drawer" aria-label="Close controls">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <path d="m18 6-12 12M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <p class="drawer-note">
+        Set the hero sphere palette. As you scroll, the scene morphs to
+        volt-lime, then rose-pink as the shape assembles.
+      </p>
+      <div class="palette-heading">
+        <svg
+          width="14"
+          height="14"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+        >
+          <path
+            d="m12 3 1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2L12 3Z"
+          /></svg
+        >Hero Palette Shaders
+      </div>
+      <div class="palette-list" id="palette-list">
+        <button class="palette-option selected" data-id="roseGold">
+          <div class="palette-top">
+            Royal Blue &amp; Pearl
+            <i class="swatch" style="background: #2f69ff"></i>
+          </div>
+          <p>
+            Hyper-distinct cobalt spheres floating in soft white-slate
+            gradients.
+          </p>
+        </button>
+        <button class="palette-option" data-id="pinkBlush">
+          <div class="palette-top">
+            Rose Blush &amp; Crème
+            <i class="swatch" style="background: #ffa6b3"></i>
+          </div>
+          <p>
+            Sweet candy pinks and juicy strawberry accents in a pearl setting.
+          </p>
+        </button>
+        <button class="palette-option" data-id="voltLime">
+          <div class="palette-top">
+            Volt Lime &amp; Slate
+            <i class="swatch" style="background: #e1fc03"></i>
+          </div>
+          <p>Electric neon volt-lime against a clean white-slate horizon.</p>
+        </button>
+        <button class="palette-option" data-id="arcticBlue">
+          <div class="palette-top">
+            Arctic Sky &amp; Crystal
+            <i class="swatch" style="background: #96e5ff"></i>
+          </div>
+          <p>Cool arctic crystal blues with a translucent glass sheen.</p>
+        </button>
+      </div>
+      <div class="drawer-bottom">
+        <div class="engine-note">
+          RENDER ENGINE / THREE.JS WEBGL<br />DYNAMICS SOLVER / 3D COLLISION
+          VERLET
+        </div>
+        <button class="reset-btn" id="reset-theme">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+          >
+            <path d="M3 12a9 9 0 1 0 3-6.7L3 8" />
+            <path d="M3 3v5h5" /></svg
+          >Reset Defaults
+        </button>
+      </div>
+    </aside>
+    <script src="three.min.js"></script>
+    <script>
+      if (typeof THREE === "undefined") {
+        document.write(
+          '<script src="https://unpkg.com/three@0.160.0/build/three.min.js"><\/script>',
+        );
+      }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
