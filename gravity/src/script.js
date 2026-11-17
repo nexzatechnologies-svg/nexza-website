@@ -596,46 +596,7 @@ const THREE = window.THREE;
       window.addEventListener("mousedown", () => (mousePos.isDown = true));
       window.addEventListener("mouseup", () => (mousePos.isDown = false));
       window.addEventListener("blur", () => (mousePos.isDown = false));
-      function selectPalette(id) {
-        selected = id;
-        document
-          .querySelectorAll(".palette-option")
-          .forEach((el) =>
-            el.classList.toggle("selected", el.dataset.id === id),
-          );
-        gradient.style.background = palettes[id].bg;
-        initScene();
-      }
-      document
-        .querySelectorAll(".palette-option")
-        .forEach((el) =>
-          el.addEventListener("click", () => selectPalette(el.dataset.id)),
-        );
-      document
-        .querySelector("#reset-theme")
-        .addEventListener("click", () => selectPalette("roseGold"));
-      const drawer = document.querySelector("#drawer"),
-        scrim = document.querySelector("#scrim");
-      function openDrawer() {
-        drawer.classList.add("open");
-        scrim.classList.add("open");
-        drawer.setAttribute("aria-hidden", "false");
-      }
-      function closeDrawer() {
-        drawer.classList.remove("open");
-        scrim.classList.remove("open");
-        drawer.setAttribute("aria-hidden", "true");
-      }
-      document
-        .querySelector("#open-drawer")
-        .addEventListener("click", openDrawer);
-      document
-        .querySelector("#close-drawer")
-        .addEventListener("click", closeDrawer);
-      scrim.addEventListener("click", closeDrawer);
-      window.addEventListener("keydown", (e) => {
-        if (e.key === "Escape") closeDrawer();
-      });
+
       const observer = new IntersectionObserver(
         (entries) =>
           entries.forEach((e) => {
