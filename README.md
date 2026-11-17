@@ -9,6 +9,10 @@ Preserving the high-performance Three.js WebGL physics simulation, smooth scroll
 - Networking
 - Access Control
 - Managed IT Services
+- Genuine Software Reselling
+- Annual Maintenance Contract (AMC)
+- IT Outsourcing
+- Website Creation for Your Business
 - Computer Programming & IT Consultancy
 
 ## Structure
