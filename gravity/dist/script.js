@@ -612,7 +612,8 @@ const THREE = window.THREE;
         .forEach((el) => observer.observe(el));
       let scrollTarget = scrollY,
         scrollActual = scrollY,
-        scrolling = false;
+        scrolling = false,
+        lastMobileScrollY = 0;
       window.addEventListener(
         "wheel",
         (e) => {
@@ -667,6 +668,14 @@ const THREE = window.THREE;
         "scroll",
         () => {
           if (!scrolling) scrollTarget = scrollY;
+          if (innerWidth <= 767) {
+            if (scrollY > 70 && scrollY > lastMobileScrollY) {
+              header.classList.add("header-hidden");
+            } else {
+              header.classList.remove("header-hidden");
+            }
+            lastMobileScrollY = scrollY;
+          }
           const vh = innerHeight || 1;
           control.progress = scrollY / vh;
           const stage =
